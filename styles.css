@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+header a {
+    color: #2575fc;
+    text-decoration: none;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.profile-pic:hover {
+    transform: rotate(15deg);
+}
+
+.language-skill {
+    margin-bottom: 20px;
+}
+
+.skill-level {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 5px;
+}
+
+.dot.filled {
+    background-color: #6a11cb;
+}
+
+.certificate-image {
+    cursor: pointer;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.with-background {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.zoom-on-hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom-on-hover:hover {
+    transform: scale(0.9);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
